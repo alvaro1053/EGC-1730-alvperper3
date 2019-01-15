@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/wadobo/decide.git .
+RUN git clone https://github.com/alvaro1053/EGC-1730-alvperper3.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
